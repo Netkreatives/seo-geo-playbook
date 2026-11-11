@@ -11,6 +11,8 @@ A portfolio of small product sites, each with a marketing page plus a large set 
 - One site roughly doubled its impressions through the same update. It had a named author with an About page and `sameAs` links, fewer pages, and pages that worked as tools rather than articles.
 - Authority on the demoted sites was near zero: between 1 and 29 referring domains, mostly scraper junk.
 
+**Two months later** the site that had grown fell too: about 73,000 impressions one day, about 1,300 the next, about 100 a day after two weeks. Every country, device and page family fell together. Queries went from over a thousand to twenty and the remaining average position was about 3, which means the site was shown almost only for its own name. There was no manual action, pages stayed indexed, and the crawler kept fetching them successfully. No update was confirmed for that day. Roughly four in five of its URLs were one family of data-driven list pages with no author, date or image.
+
 A first investigation concluded "no portfolio-wide penalty" because it never laid the update dates over the daily chart. Timing remains a correlation, but it changed the diagnosis.
 
 ## Diagnosis steps
@@ -21,6 +23,18 @@ A first investigation concluded "no portfolio-wide penalty" because it never lai
 4. Count pages with impressions before and after, not only totals.
 5. Compare sites that fell with sites that held. What differs: page count, templating, authorship, authority?
 6. Rule out your own deploys only after steps 1–5.
+
+## A one-day cliff: first hour
+
+A gradual decline and an overnight collapse need different first steps. For a collapse, rule out the cheap causes before theorising:
+
+1. Manual actions and security issues in Search Console.
+2. Your own deploys and CDN or firewall rule changes on that date.
+3. URL inspection on three pages: indexed, last crawl date, fetch status, robots state, canonical match.
+4. Daily data split by country, device and page family. Everything falling together points to a site-wide classification; one family or one country points elsewhere.
+5. Query count and average position before and after. Far fewer queries with a *better* average position means only brand queries are left.
+
+If all five are clean, it is algorithmic. Go to the recovery order below.
 
 ## What not to do
 

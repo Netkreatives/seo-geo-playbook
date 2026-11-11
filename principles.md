@@ -1,8 +1,8 @@
 # Principles
 
-1. **Few hand-written pages beat many generated ones.** Sites with hundreds of templated pages lost almost all visibility in one spam update; the site that kept growing had fewer, tool-like pages and a named author. *(observed, see [recovery](recovery/spam-update-playbook.md))*
+1. **Few hand-written pages beat many generated ones.** Sites with hundreds of templated pages lost almost all visibility in one spam update. A larger site built mostly from data-driven list pages grew through that update, then lost 99% of its impressions in a single day two months later. Surviving one update proves nothing. *(observed, see [recovery](recovery/spam-update-playbook.md))*
 
-2. **No programmatic page matrices.** No city × service, no persona × feature, no locale-wide copy objects filled into one template. Each page is written for its own query, in its own language.
+2. **No programmatic page matrices.** No city × service, no persona × feature, no locale-wide copy objects filled into one template. Each page is written for its own query, in its own language. Pages generated from your own real data (a dictionary, a catalogue) are a different thing from spun text, but they are still exposed when they make up most of the site and carry no author, date or evidence. Keep such a family a minority of your URLs and judge it page by page on clicks.
 
 3. **Every page passes four tests before it is written.**
    - It is about something the product actually does.
